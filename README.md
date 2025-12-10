@@ -7,9 +7,9 @@
   
 **Team:** Group 20 (Leiden University):Hanwen Huang, Zhiwei Ma, Yutao Liu, Zhengqi Lang
 </div>
-<div align = "center">
+
 ## <img src = "./gateway/squidward_avatar.png" width = "8%"> Overview
-</div>
+
 This project implements an end-to-end conversational AI system that mimics a specific persona (e.g., Squidward). It integrates three main components:
 
 1. **Speech Recognition (ASR):** Converts user speech to text using **Whisper**.  
