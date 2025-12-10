@@ -2,11 +2,8 @@
 <h1>
  Voice Mimicry Dialogue System with LLM  
 </h1>
-<h2 align = "right">
-  Audio Processing and Indexing Final Project
-</h2>
 
-**Project:** Voice Mimicry Dialogue System with LLM  
+**Project:** Audio Processing and Indexing Final Project
   
 **Team:** Group 20 (Leiden University):Hanwen Huang, Zhiwei Ma, Yutao Liu, Zhengqi Lang
 </div>
