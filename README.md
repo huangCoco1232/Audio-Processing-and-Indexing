@@ -16,15 +16,15 @@ This project implements an end-to-end conversational AI system that mimics a spe
 2. **Language Generation (LLM):** Generates character-specific responses using **Microsoft Phi-4**.  
 3. **Voice Cloning (TTS):** Synthesizes speech using **CosyVoice2** (Zero-shot inference).
 
----
+
 
 ## <img src = "./gateway/squidward_avatar.png" width = "8%"> Project Directory Structure
 
 
----
+
 
 ## <img src = "./gateway/squidward_avatar.png" width = "8%"> Installation
 
----
+
 
 ## <img src = "./gateway/squidward_avatar.png" width = "8%"> How to use
