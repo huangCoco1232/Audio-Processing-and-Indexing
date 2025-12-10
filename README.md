@@ -33,6 +33,8 @@ This project uses a Streamlit-based webpage demo format, with the following stru
 
 ## <img src = "./gateway/squidward_avatar.png" width = "8%"> Installation
 
-
+To install all the library, you need:
+- install streamlit and streamlitaudiorecorder
+- openai-whisper
 
 ## <img src = "./gateway/squidward_avatar.png" width = "8%"> How to use
