@@ -22,12 +22,13 @@ This project implements an end-to-end conversational AI system that mimics a spe
 
 This project uses a Streamlit-based webpage demo format, with the following structure:
 
-'''
+```
 - web_demo.py
   -- Whisper
   -- LLM
   -- CosyVoice2
-'''
+
+```
 
 
 ## <img src = "./gateway/squidward_avatar.png" width = "8%"> Installation
