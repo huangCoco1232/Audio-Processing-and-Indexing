@@ -1,8 +1,10 @@
 <div align="center">
 <h1>
-  Audio Processing andIndexing Final Project
+ Voice Mimicry Dialogue System with LLM  
 </h1>
-
+<h2 align = "right">
+  Audio Processing and Indexing Final Project
+</h2>
 
 **Project:** Voice Mimicry Dialogue System with LLM  
   
