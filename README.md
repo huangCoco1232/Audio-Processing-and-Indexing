@@ -1,8 +1,8 @@
 # Audio Processing andIndexing Final Project
-
+<div align="center">
 **Project:** Voice Mimicry Dialogue System with LLM  
-**Team:** Group 20 (Leiden University)
-
+**Team:** Group 20 (Leiden University):Hanwen Huang, Zhiwei Ma, Yutao Liu, Zhengqi Lang
+</div>
 ## Overview
 This project implements an end-to-end conversational AI system that mimics a specific persona (e.g., Squidward). It integrates three main components:
 
