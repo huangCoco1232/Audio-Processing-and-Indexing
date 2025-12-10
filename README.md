@@ -21,7 +21,10 @@ This project implements an end-to-end conversational AI system that mimics a spe
 ## <img src = "./gateway/squidward_avatar.png" width = "8%"> Project Directory Structure
 
 
+---
 
+## <img src = "./gateway/squidward_avatar.png" width = "8%"> Installation
 
 ---
 
+## <img src = "./gateway/squidward_avatar.png" width = "8%"> How to use
