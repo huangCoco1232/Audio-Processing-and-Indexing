@@ -8,7 +8,7 @@
 **Team:** Group 20 (Leiden University):Hanwen Huang, Zhiwei Ma, Yutao Liu, Zhengqi Lang
 </div>
 
-## <img src = "./gateway/squidward_avatar.png" width = "10%"> Overview
+## <img src = "./gateway/squidward_avatar.png" width = "8%"> Overview
 
 This project implements an end-to-end conversational AI system that mimics a specific persona (e.g., Squidward). It integrates three main components:
 
