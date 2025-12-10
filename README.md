@@ -1,6 +1,7 @@
 # Audio Processing andIndexing Final Project
 <div align="center">
 **Project:** Voice Mimicry Dialogue System with LLM  
+  
 **Team:** Group 20 (Leiden University):Hanwen Huang, Zhiwei Ma, Yutao Liu, Zhengqi Lang
 </div>
 ## Overview
