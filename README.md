@@ -23,7 +23,7 @@ This project implements an end-to-end conversational AI system that mimics a spe
 This project uses a Streamlit-based webpage demo format, with the following structure:
 
 ```
-- web_demo.py
+- web_demo(Streamlit)
   -- Whisper
   -- LLM
   -- CosyVoice2
