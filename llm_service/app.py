@@ -2,6 +2,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from llm_loader import pipe
+import time
 
 app = FastAPI()
 
@@ -30,6 +31,8 @@ full_messages = [{"role": "system", "content": DEFAULT_SYSTEM_PROMPT}]
 
 @app.post("/llm")
 async def chat(req: LLMPayload):
+    t_start = time.time()
+
     user_message = req.text.strip()
 
     # 附加 system prompt
@@ -47,5 +50,9 @@ async def chat(req: LLMPayload):
     reply = output[0]["generated_text"]
 
     full_messages.append({"role": "system", "content": reply})
+
+    t_end = time.time()
+
+    print(f"Finished in {t_end - t_start} seconds.")
 
     return {"reply": reply}

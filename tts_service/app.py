@@ -3,6 +3,7 @@
 import os
 import torch
 import torchaudio
+import time
 from fastapi import FastAPI, Form
 from fastapi.responses import FileResponse
 from cosy_loader import cosyvoice, prompt_speech_16k
@@ -22,6 +23,7 @@ async def tts_endpoint(
     text: str = Form(...)
 ):
     # Zero-Shot 推理
+    t_start = time.time()
     chunks = []
     for out in cosyvoice.inference_zero_shot(
         text,
@@ -36,5 +38,9 @@ async def tts_endpoint(
     full_audio = torch.cat(chunks, dim=-1)
     output_path = "output.wav"
     torchaudio.save(output_path, full_audio, cosyvoice.sample_rate)
+
+    t_end = time.time()
+
+    print(f"Finished in {t_end - t_start} seconds.")
 
     return FileResponse(output_path, media_type="audio/wav", filename="tts.wav")
