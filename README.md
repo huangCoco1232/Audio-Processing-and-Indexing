@@ -18,7 +18,7 @@ This project implements an end-to-end conversational AI system that mimics a spe
 
 ---
 
-## Project Directory Structure
+## <img src = "./gateway/squidward_avatar.png" width = "8%"> Project Directory Structure
 
 
 
